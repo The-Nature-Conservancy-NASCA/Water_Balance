@@ -51,6 +51,7 @@ En el esquema, los valores de las propiedades para cada elemento se presentan en
 Los valores de caudal, carga de sedimentos, nitrógeno y fosforo con los cuales se realiza el análisis (estos valores son el resultado de las modelaciones de InVEST), se introducen como series de tiempo, sin indexación Juliana. Es decir, los años se presentan como una secuencia numérica continua, mas no con una fecha fija. Los archivos en los cuales introducen estos datos son:
 **Tabla 3**. Archivos
 |Archivo | Descripción| unidad |
+| -- | -- | -- |
 |2_WI_AWYInputs.csv|Volumen de agua de la fuente|m3|
 |2_WI_WNInputs.csv| Carga de nitrógeno de la fuente | Kg |
 |2_WI_WPInputs.csv| Carga de fosforo de la fuente | Kg |
