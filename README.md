@@ -7,6 +7,7 @@ Para efectos de facilidad, en la WaterFunds App, los esquemas de captación siem
 
 **Tabla 1**. Topología
 |From_Element|To_Element|
+| -- | -- |
 |100|1|
 |1|2|
 |2|3|
@@ -31,6 +32,7 @@ En el esquema, los valores de las propiedades para cada elemento se presentan en
 
 **Tabla 2**. Propiedades de elementos
 |From_Element|PWater|RetSed|RetN|RetP|
+| -- | -- | -- | -- | -- |
 |1|100|0|0|0|
 |2|100|5|1|1|
 |3|100|25|15|20|
@@ -57,6 +59,7 @@ Conceptualmente, el código tiene la posibilidad de entender estas tres entradas
 
 **Tabla 4**. Volumen de agua en la fuente
 |0|1|2|3|4|5|6|7|8|9|10|11|12|100|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 |0|1000000000|0|0|0|0|0|0|0|0|0|0|0|1000000000|
 |1|1000000000|0|0|0|0|0|0|0|0|0|0|0|1000000000|
 |2|1000000000|0|0|0|0|0|0|0|0|0|0|0|1000000000|
@@ -66,6 +69,7 @@ Conceptualmente, el código tiene la posibilidad de entender estas tres entradas
 
 **Tabla 5**. Carga de nitrógeno en la fuente
 |0|1|2|3|4|5|6|7|8|9|10|11|12|100|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 |0|0|0|0|0|0|0|0|0|0|0|0|0|1000|
 |1|0|0|0|0|0|0|0|0|0|0|0|0|1000|
 |2|0|0|0|0|0|0|0|0|0|0|0|0|1000|
@@ -75,6 +79,7 @@ Conceptualmente, el código tiene la posibilidad de entender estas tres entradas
 
 **Tabla 6**. Carga de fosforo en la fuente
 |0|1|2|3|4|5|6|7|8|9|10|11|12|100|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 |0|0|0|0|0|0|0|0|0|0|0|0|0|1000|
 |1|0|0|0|0|0|0|0|0|0|0|0|0|1000|
 |2|0|0|0|0|0|0|0|0|0|0|0|0|1000|
@@ -84,6 +89,7 @@ Conceptualmente, el código tiene la posibilidad de entender estas tres entradas
 
 **Tabla 7**. Carga de sedimentos en la fuente
 |0|1|2|3|4|5|6|7|8|9|10|11|12|100|
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 |0|0|0|0|0|0|0|0|0|0|0|0|0|1000000|
 |1|0|0|0|0|0|0|0|0|0|0|0|0|1000000|
 |2|0|0|0|0|0|0|0|0|0|0|0|0|1000000|
@@ -93,6 +99,7 @@ Conceptualmente, el código tiene la posibilidad de entender estas tres entradas
 
 **Tabla 8**. Caudal extradido de la fuente
 |0|1|
+| -- | -- |
 |0|10|
 |1|20|
 |2|30|
