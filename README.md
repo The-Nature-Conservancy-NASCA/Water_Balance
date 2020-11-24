@@ -23,6 +23,7 @@ Para efectos de facilidad, en la WaterFunds App, los esquemas de captación siem
 
 Cada elemento que compone el sistema tiene ciertas propiedades que son importantes para el balance. A continuación, se listan las propiedades que puede tener cada elemento.
 |Propiedad | Descripción|
+| -- | -- |
 |PWater| Es el porcentaje de caudal entregado por el elemento anterior que pasa por elemento|
 |RetSed| Es el porcentaje de retención de sedimentos que posee el elemento |
 |RetN| Es el porcentaje de retención de sedimentos que posee el elemento|
