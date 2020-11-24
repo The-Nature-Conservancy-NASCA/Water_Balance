@@ -117,3 +117,18 @@ Conceptualmente, el código tiene la posibilidad de entender estas tres entradas
 
 A continuación, se listan los resultados que arroja el código.
 
+**Tabla 9**. Archivos de salida
+|Archivo | Descripción| unidad |
+| -- | -- | -- |
+| CN_Results.csv | Concentración de nitrógeno que entra a cada elemento | mg/l |
+| CP_Results.csv| Concentración de fosforo que entra a cada elemento | mg/l |
+| CSed_Results.csv| Concentración de sedimentos que entra a cada elemento | mg/l |
+| Q_Results.csv| Caudal que pasa por cada elemento | l/s |
+| Results_Order.csv| Orden de la topología resuelta| Ad|
+| WN_Results.csv| Carga de nitrógeno que entra cada elemento | Kg |
+| WN_Ret_Results.csv | Carga de nitrógeno que retiene cada elemento | Kg |
+| WP_Results.csv | Carga de nitrógeno que entra cada elemento | Kg |
+| WP_Ret_Results.csv | Carga de fosforo que retiene cada elemento | Kg |
+| WSed_Results.csv | Carga de nitrógeno que entra cada elemento Caudal extraído| Ton|
+| WSed_Ret_Results.csv | Carga de sedimentos que retiene cada elemento | Ton |
+
