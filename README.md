@@ -1,7 +1,11 @@
 # Water_Balance
 Como partes de los componentes de modelación que integra la WaterFunds App se encuentra la solución de balances de masa entre los diferentes componentes de los sistemas de captación, distribución y tratamiento del agua potable. En este sentido, en este repositorio se encuentra consolidado el algoritmo que permite solucionar dichos balances.
 Para ejemplificar su funcionamiento, observemos el siguiente esquema de captación:
- 
+
+Figura 2.1 Esquema de Captación
+![Sin titulo](https://github.com/The-Nature-Conservancy-NASCA/Water_Balance/blob/main/FIGURES/Dummy_Grapho.jpg)
+Fuente: Elaboración propia
+
 En el esquema anterior, cada elemento se encuentra identificado por un código numérico único. En la App, este código, debe ser un valor positivo mayor o igual a 1. El cero se encuentra reservado al interior del código, por lo que no se puede utilizar como identificador.
 Para efectos de facilidad, en la WaterFunds App, los esquemas de captación siempre deben iniciar con un elemento denominado río, luego a este, se conectan los demás elementos que componene el sistema. Dado que cada elemento contiene un código único, la topología (conexiones entre elementos) puede ser representada como el conjunto de pares de elementos contiguos ordenados en un arreglo matricial. La topología, se ingresa en el archivo de nombre **0_WI_Topology.csv**. A continuación, se presenta la topología del esquema anterior.
 
