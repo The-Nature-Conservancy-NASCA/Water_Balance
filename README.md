@@ -123,7 +123,7 @@ A continuación, se listan los resultados que arroja el código.
 | CN_Results.csv | Concentración de nitrógeno que entra a cada elemento | mg/l |
 | CP_Results.csv| Concentración de fosforo que entra a cada elemento | mg/l |
 | CSed_Results.csv| Concentración de sedimentos que entra a cada elemento | mg/l |
-| Q_Results.csv| Caudal que pasa por cada elemento | l/s |
+| Q_Results.csv| Caudal que pasa por cada elemento | m^3 |
 | Results_Order.csv| Orden de la topología resuelta| Ad|
 | WN_Results.csv| Carga de nitrógeno que entra cada elemento | Kg |
 | WN_Ret_Results.csv | Carga de nitrógeno que retiene cada elemento | Kg |
