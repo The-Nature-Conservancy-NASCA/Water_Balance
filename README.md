@@ -30,8 +30,8 @@ Cada elemento que compone el sistema tiene ciertas propiedades que son important
 | -- | -- |
 |PWater| Es el porcentaje de caudal entregado por el elemento anterior que pasa por elemento|
 |RetSed| Es el porcentaje de retención de sedimentos que posee el elemento |
-|RetN| Es el porcentaje de retención de sedimentos que posee el elemento|
-|RetP| Es el porcentaje de retención de sedimentos que posee el elemento|
+|RetN| Es el porcentaje de retención de nitrógeno que posee el elemento|
+|RetP| Es el porcentaje de retención de fosforo que posee el elemento|
 
 En el esquema, los valores de las propiedades para cada elemento se presentan en un recuadro. Sin embargo, en la aplicación, estas se introducen en el archivo **1_WI_Elements_Param.csv** como un arreglo matricial tal como se presenta a continuación.
 
