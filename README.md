@@ -61,7 +61,7 @@ Los valores de caudal, carga de sedimentos, nitrógeno y fosforo con los cuales 
 |2_WI_WNInputs.csv| Carga de nitrógeno de la fuente | Kg |
 |2_WI_WPInputs.csv| Carga de fosforo de la fuente | Kg |
 |2_WI_WSedInputs.csv | Carga de sedimentos de la fuente | Ton|
-|2_WI_WSedInputs.csv | Caudal extraído| l/s|
+|3_Water_Extraction.csv | Caudal extraído| l/s|
 
 Conceptualmente, el código tiene la posibilidad de entender estas tres entradas, para cada uno de los elementos, no obstante, en la App, las entradas se permiten algunos puntos específicos como lo son los embalses. A continuación, se muestran las series temporales de entrada para cada elemento, en un periodo de 5 años. Es muy importante que no use notación científica en los archivos o el código arrojara error.
 
