@@ -34,6 +34,20 @@ WPInputs    = np.loadtxt(open(os.path.join("INPUTS","2_WI_WPInputs.csv")),   del
 # Col1: Anho Col 2: QExtract
 QExtract    = np.loadtxt(open(os.path.join("INPUTS","3_Water_Extraction.csv"), "rb"), delimiter=",")
 
+## Correct
+PoPo  = AWYInputs.shape[0]
+PoPis = QExtract.shape[0]
+if PoPo > PoPis:
+    Tmp = np.zeros((PoPo, 2))
+    Tmp[0:PoPis,:] = QExtract
+    for i in range(PoPis,PoPo):
+        Tmp[i,0] = i - 1
+        Tmp[i,1] = QExtract[PoPis-1,1]
+
+    QExtract = Tmp
+elif PoPo < PoPis:
+    QExtract = QExtract[0:PoPo,:]
+    
 '''
 ------------------------------------------------------------------------------------------------------------------------
 '''
