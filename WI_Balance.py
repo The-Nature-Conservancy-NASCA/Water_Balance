@@ -30,6 +30,10 @@ WSedInputs  = np.loadtxt(open(os.path.join("INPUTS","2_WI_WSedInputs.csv")), del
 WNInputs    = np.loadtxt(open(os.path.join("INPUTS","2_WI_WNInputs.csv")),   delimiter=",")
 WPInputs    = np.loadtxt(open(os.path.join("INPUTS","2_WI_WPInputs.csv")),   delimiter=",")
 
+# Check AWY = 0  -> 0.0031536 m3 = 0.1 l/s
+if np.shape(AWYInputs)[0] == 2:
+    AWYInputs[1,1:] = 0.0031536
+
 # Leer archivo de serie de tiempo de caudal extraido (l/s)
 # Col1: Anho Col 2: QExtract
 QExtract    = np.loadtxt(open(os.path.join("INPUTS","3_Water_Extraction.csv"), "rb"), delimiter=",")
