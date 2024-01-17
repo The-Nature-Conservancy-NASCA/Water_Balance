@@ -541,10 +541,10 @@ for i in Final_Order_Solution:
             # Calculo de Concentracion de Fosforo (La Concentracion Aguas Arriba y Aguas Abajo se Igualan)
             CP_Calc = CP_Results[:, Upstream_Pos[0]]
             CP_Results = np.append(CP_Results, CP_Calc, axis=1)
-            # Calculo de Carga de Nitrogeno
+            # Calculo de Carga de Fosforo
             AWY = AWY_Results[:, Results_Pos[0]]
             WP_Calc = (CP_Calc * AWY) / (1000)  # Carga en Kilogramos
-            WP_Results = np.append(WN_Results, WP_Calc, axis=1)
+            WP_Results = np.append(WP_Results, WP_Calc, axis=1)
             # Calculo de carga de Fosforo retenido en el elemento
             WP_Ret_Calc = WP_Results[:, Results_Pos[0]] * ((RetP[RetP_Pos[0]]) / 100)
             WP_Ret_Results = np.append(WP_Ret_Results, WP_Ret_Calc, axis=1)
